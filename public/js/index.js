@@ -49,8 +49,9 @@ function initialize_gmaps() {
     $(document).ready(function() {
         initialize_gmaps();
         $('#fsModal').show();
-
+        $('#leftStuff').hide();
     });
         $('#startTrip').click(function(){
             $('#fsModal').hide();
+
         })
