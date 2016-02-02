@@ -1,3 +1,33 @@
+body {
+  padding-top: 50px; }
+
 #map-canvas {
-  height: 100vh;
-  width: 100%; }
+  height: 90vh; }
+
+#controls {
+  height: 89vh; }
+
+.btn-circle {
+  border-radius: 100%;
+  margin: 5px; }
+
+.btn {
+  border: 0px solid transparent;
+  background-color: #FFAF75;
+  color: #FFFFFF; }
+  .btn:hover {
+    background-color: #ffbe8f;
+    color: #f2f2f2; }
+  .btn:active {
+    background-color: #ffcda8;
+    color: #e6e6e6; }
+
+.well {
+  height: 23vh;
+  background-color: #EEFFFD; }
+
+.panel {
+  background-color: #FFF6EF; }
+
+.lead {
+  font-size: 250%; }
