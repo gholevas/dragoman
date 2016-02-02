@@ -1,0 +1,46 @@
+<!-- layout.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>{% block title %}Dragoman. Your trip, booked.{% endblock %}</title>
+    <link rel='stylesheet' type='text/css' href='/css/bootstrap.min.css'>
+    <link href="stylesheets/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-items">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"><span><img style="width:20px;"src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Media_Viewer_Icon_-_Location.svg/2000px-Media_Viewer_Icon_-_Location.svg.png"/></span>Dragoman</a>
+            </div>
+            <div id="nav-items" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/wiki/">Home</a></li>
+                    <li><a href="/wiki/">About</a></li>
+                    <li><a href="/wiki/">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        {% block content %}{% endblock %}
+</body>
+
+
+
+<footer>
+    <div id="footer" class="container text-muted">
+        &copy; 2016 by George Holevas &amp; Andrew Ash
+    </div>
+    <script src='/jquery.min.js'></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIfjYpqd9yztVKkqOo30gS710JbF6DTYo&sensor=true"></script>
+    <script src="js/index.js"></script>
+</footer>
+
+</html>
