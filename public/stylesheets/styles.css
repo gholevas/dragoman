@@ -31,3 +31,31 @@ body {
 
 .lead {
   font-size: 250%; }
+
+
+
+#map-canvas {
+  height: 100vh;
+  width: 100%; }
+
+.modal-dialog {
+  top: 50%;
+  position: relative;
+  transform: translateY(50%); }
+
+/* .modal-fullscreen */
+.modal-fullscreen {
+  background: rgba(0, 0, 0, 0.5); }
+
+.modal-fullscreen .modal-content {
+  background: transparent;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.modal-backdrop.modal-backdrop-fullscreen.in {
+  opacity: 1;
+  filter: alpha(opacity=97); }
+
+.centered {
+  text-align: center; }
