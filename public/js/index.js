@@ -32,7 +32,7 @@ function initialize_gmaps() {
   // to the map type control.
   var mapOptions = {
     zoom: 16,
-    center: new google.maps.LatLng(40.705189, -74.009209),
+    center: new google.maps.LatLng(40.705189, -74.009999),
     mapTypeControlOptions: {
       mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
     }
@@ -53,5 +53,5 @@ function initialize_gmaps() {
     });
         $('#startTrip').click(function(){
             $('#fsModal').hide();
-
+            $('#leftStuff').show();
         })

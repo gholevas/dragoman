@@ -30,16 +30,14 @@ body {
   background-color: #FFF6EF; }
 
 .lead {
-  font-size: 250%; }
+  font-size: 150%; }
 
-
-
-/*#map-canvas {
+#map-canvas {
   height: 100vh;
-  width: 100%; }*/
+  width: 100%; }
 
 .modal-dialog {
-  color:white;
+  color: white;
   top: 50%;
   position: relative;
   transform: translateY(50%); }

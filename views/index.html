@@ -1,28 +1,29 @@
 {% extends "layout.html" %}
 
 {% block content %}
-<div class="container">
-	<div class="row">
-		<div id="leftStuff" class='col-md-4'>
+<div id='map-canvas'></div>
+
+
+		<div style="width:40vh;height:100vh;position:absolute;top:5vh;"id="leftStuff">
 			<div class='panel panel-default'>
 				<div id='controls' class='panel-body'>
 					<div class='panel-heading'>
-						<button class='btn btn-circle btn-lg'>1</button>
-						<button class='btn btn-circle btn-lg'>2</button>
-						<button class='btn btn-circle btn-lg'>3</button>
-						<button class='btn btn-circle btn-lg'>4</button>
-						<button class='btn btn-circle btn-lg'>5</button>
+						<button class='btn btn-circle btn-sm'>1</button>
+						<button class='btn btn-circle btn-sm'>2</button>
+						<button class='btn btn-circle btn-sm'>3</button>
+						<button class='btn btn-circle btn-sm'>4</button>
+						<button class='btn btn-circle btn-sm'>5</button>
 					</div>
 					<div class='panel-body'>
 						<div class='well'>
-							<p class='lead'>Hotel<button class='btn btn-circle btn-lg'>+</button></p>
+							<p class='lead'>Hotel<button class='btn btn-circle btn-sm'>+</button></p>
 						</div>
 						<div class='well'>
-							<p class='lead'>Restaurants<button class='btn btn-circle btn-lg'>+</button></p>
+							<p class='lead'>Restaurants<button class='btn btn-circle btn-sm'>+</button></p>
 							
 						</div>
 						<div class='well'>
-							<p class='lead'>Activities<button class='btn btn-circle btn-lg'>+</button></p>
+							<p class='lead'>Activities<button class='btn btn-circle btn-sm'>+</button></p>
 						</div>
 					</div>
 				</div>
@@ -30,9 +31,6 @@
 			</div>
 		</div>
 
-		<div id='map-canvas' class='col-md-8'></div>
-	</div>
-</div>
 
 
 

@@ -39,7 +39,7 @@ body {
 }
 
 .lead {
-	font-size: 250%;
+	font-size: 150%;
 }
 
 
@@ -47,9 +47,6 @@ body {
 
 
 
-body {
-  color:white;
-}
 
 #map-canvas {
     height: 100vh; 
@@ -58,6 +55,7 @@ body {
 
 
 .modal-dialog{
+  color: white;
       top: 50%;
     position: relative;
     transform: translateY(50%);
